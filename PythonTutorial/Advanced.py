@@ -18,7 +18,7 @@ def double_numbers(iterable):
 # Running the following would mean we'll double all values first and return all
 # of them back to be checked by our condition
 for value in double_numbers(range(1000000)):  # `test_non_generator`
-    print value
+    print(value)
     if value > 5:
         break
 
@@ -35,7 +35,7 @@ def double_numbers_generator(iterable):
 # our logic. Hence as soon as we see a value > 5, we break out of the
 # loop and don't need to double most of the values sent in (MUCH FASTER!)
 for value in double_numbers_generator(xrange(1000000)):  # `test_generator`
-    print value
+    print(value)
     if value > 5:
         break
 
@@ -73,7 +73,7 @@ def get_fruits():
 
 # Prints out the list of fruits with 'Apple' element in it:
 # Banana, Mango, Orange, Apple
-print ', '.join(get_fruits())
+print(', '.join(get_fruits()))
 
 # in this example beg wraps say
 # Beg will call say. If say_please is True then it will change the returned
@@ -98,5 +98,5 @@ def say(say_please=False):
     return msg, say_please
 
 
-print say()  # Can you buy me a beer?
-print say(say_please=True)  # Can you buy me a beer? Please! I am poor :(
+print(say())  # Can you buy me a beer?
+print(say(say_please=True))
