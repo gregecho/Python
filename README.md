@@ -2,7 +2,7 @@
 > Just a source code of Python tutorial and projects.
 
 ## Content ##
-> #### PythonTutorials[2] ####
+> #### [PythonTutorials][2] ####
 > #### TBD ####
 
 
