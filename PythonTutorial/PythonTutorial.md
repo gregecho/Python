@@ -12,8 +12,7 @@
 Refer：
 > [Learn Python in Y minutes][1]
 
-[1]
-:https://learnxinyminutes.com/docs/python/
+[1]:https://learnxinyminutes.com/docs/python/
 
 ### TODO
 * [ ] Learn python in deep
